@@ -545,14 +545,17 @@ var CustomTypes =
     "FProcMeshTangent",
     "FUCLError",
     "EUCLArchiveFormat",
-    "EUCLArchiveCompression"
+    "EUCLArchiveCompression",
+    "EUCLZipCompressionLevel",
+    "EUCLZipEncryptionType",
+    "EUCLArchiveFlag",
 ];
 
 (function () {
     Prism.languages['cpp']['class-name'].push(new RegExp(CustomTypes.join('|'))); 
     Prism.languages['cpp']['ue-macro'] = [];
     Prism.languages['cpp']['ue-macro'].push(new RegExp(CustomMacros.join('|')));
-	Prism.plugins.customClass.add(({content, type, language}) => {
+	  Prism.plugins.customClass.add(({content, type, language}) => {
 		if (language == "cpp")
 		{	
 			if (CustomMacros.includes(content)) {

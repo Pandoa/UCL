@@ -2,13 +2,13 @@
   - [Create an archive](/createarchive)
   - [Create a ZIP archive](/createziparchive)
   - [Extract an archive](/extractarchive)
-  - [Compress a file](/compressfiles)
+  - [Compress a file](/compressfile)
   - [Get list of files in archive](/getarchiveentries)
 
 - API
   - [UCL Library](/ucllibrary)
 
 - Support
-  - [Troubleshoting](/troubleshoting)
+  - [Troubleshooting](/troubleshooting)
   - [Contact](/support)
 
