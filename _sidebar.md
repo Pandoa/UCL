@@ -5,8 +5,12 @@
   - [Compress a file](/compressfile)
   - [Get list of files in archive](/getarchiveentries)
 
+<!--
+
 - API
   - [UCL Library](/ucllibrary)
+
+-->
 
 - Support
   - [Troubleshooting](/troubleshooting)
