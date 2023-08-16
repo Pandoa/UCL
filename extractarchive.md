@@ -183,7 +183,7 @@ End Object
 
 ## From a File to Memory
 
-An archive can be extract from a file to memory using `Extract Archive to Memory`. The function returns an array of pair `{ Path, Data }` for each file in the archive.
+An archive can be extracted from a file to memory using `Extract Archive to Memory`. The function returns an array of pair `{ Path, Data }` for each file in the archive.
 
 <div class="code-switcher show-cpp-false"><div class="switcher">
 <span class="sw-bp" onclick="switchBp()">Blueprints</span><span class="sw-cpp" onclick="switchCpp()">C++</span></div>
